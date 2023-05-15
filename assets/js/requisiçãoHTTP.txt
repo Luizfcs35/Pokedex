@@ -1,0 +1,67 @@
+Requisição HTTP
+
+URL:  https://pokeapi.co/api/v2/pokemon/
+
+exemplo: api/v2/pokemon/
+${Endereço}/{path = caminho de identificação do recurso}
+
+request Method: GET | POST | PUT | DELETE
+
+* Get - Buscar;
+* Post - Adicionar;
+* Put - Atualizar;
+* Delete - Remover.
+
+passagem de parametros: 
+https://pokeapi.co/api/v2/pokemon?type=grass&name=i
+
+Exemplo : ?type=grass&name=i
+
+Querystring
+
+?chave=valor
+
+request Headers
+  Configuração : 
+  
+  
+  accept-language:
+  prioridade de Linguagem 
+  pt-BR;q=1
+  pt;q=0.9
+  en-US;q=0.8
+  en;q=0.7
+  gl;q=0.6
+
+  Authorization:
+  Basic
+  Bearer
+
+
+Response Headers
+  Configuração
+
+request Headers
+  content-type appliation/json
+
+request Body
+{
+  "name": "Teste"
+}
+
+TODA REQUISIÇÃO È COMPOSTA:
+
+url/requestMethod/requestHeaders/requestBody
+
+StatusCode: 
+
+retorna um numero:
+Respostas de informação (100-199),
+Respostas de sucesso (200-299),
+Redirecionamentos (300-399)
+Erros do cliente (400-499)
+Erros do servidor (500-599).
+
+Response Headers
+
+Response Body
