@@ -19,7 +19,7 @@ Exemplo : ?type=grass&name=i
 
 Querystring
 
-?chave=valor
+? chave = valor
 
 request Headers
   Configuração : 
